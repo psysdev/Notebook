@@ -1,0 +1,1 @@
+<footer><p>Tasks todo list dump. Written in PHP , HTML and CSS. Auth by provider service @ placeholder</p></footer>

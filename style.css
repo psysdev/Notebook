@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    background-color:aliceblue;
+}
+
+.app-wrapper{
+    display:flex;
+    flex-direction:column;
+
+    max-width:600px;
+    margin:0 auto;
+
+    background-color:beige;
+    min-height:100vh;
+}
+
+.task-form{
+    display:flex;
+    flex-direction:column;
+}
+
+.task-form input,
+.task-form button{
+    padding:10px;
+    font-size:16px;
+}
+
+.task-item{
+    display:flex;
+    /* we dont use flex-direction since default for flex is row  */
+    justify-content: space-between;
+    align-items:center;
+
+    padding:15px 20px;
+    border-bottom: 1px solid #eee; 
+    /* the border-bottom was suggested by ai I can't see it lmao */
+}
+
+.task-info strong,
+.task-info p{
+    margin: 0;
+}
+
+.task-info p{
+    color:#666;
+    /* Gives that description text shade fade for subtext! */
+    font-size:14px;
+    /* Makes the subtext vibe with smaller font size! */
+}
